@@ -221,7 +221,8 @@ function start() { // Inicio da função start()
         // Disparo com o inimigo1
 		
         if (colisao3.length>0) {
-
+            
+            velocidade=velocidade+0.3; // aumentando a velocidade do inimigo
             pontos=pontos+100; // Placar
             inimigo1X = parseInt($("#inimigo1").css("left"));
             inimigo1Y = parseInt($("#inimigo1").css("top"));
